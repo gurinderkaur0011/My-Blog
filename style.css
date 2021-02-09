@@ -38,9 +38,24 @@
     font-size: 17px;
 }
 .news-item{
+    clear: both;
     margin-top: 13px;
+    overflow: auto;
 }
 .news-item h4{
     border-bottom: 1px solid white;
     padding: 8px;
+}
+.news-item img{
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 0px;
+    margin: 10px;
+    display: inline-block;
+}
+#Avengers{
+    overflow: auto;
+}
+.news-item p{
+    display: inline-block;
 }
